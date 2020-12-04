@@ -1,0 +1,141 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+p {
+    margin: 0 !important;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+.imgLogin,
+.login {
+    width: 50%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgLogo {
+    margin-bottom: 20px;
+}
+
+.imgLogin {
+    background: red;
+    background-image: url("../img/student-849825_1280.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    background: #FCFEFC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    min-width: 250px;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+.imgUser {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.itemUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    float: left;
+    /* Desplazamos el nav hacia la izquierda */
+}
+
+.subMenu {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.imgcircleIMG {
+    align-items: center;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}

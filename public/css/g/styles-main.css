@@ -1,0 +1,209 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.table-borderer {
+    border-top: 0.5px solid #5ca2f1b9;
+    border-bottom: 0.5px solid #5ca2f1b9;
+}
+
+.pagination li.active {
+    background-color: #3e67ece8 !important;
+}
+
+#myTable_paginate .pagination {
+    text-align: center;
+    padding-top: 2em;
+}
+
+#myTable_filter label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#myTable_filter label:before {
+    content: " | - ";
+}
+
+#myTable_length label {
+    font-size: 15px;
+}
+
+#myTable_filter label input {
+    width: 90%;
+    text-align: left !important;
+}
+
+p {
+    margin: 0 !important;
+}
+
+.container {
+    width: 90%;
+    margin: 30px 70px 50px 30px !important;
+}
+
+.boton-dashboard {
+    position: relative;
+    left: 3.5%;
+    bottom: 10%;
+    z-index: 2000;
+}
+
+.boton-dash {
+    width: 80px;
+    height: 80px;
+    background-color: #1565c0;
+    border-radius: 50%;
+    align-items: center;
+    -webkit-box-shadow: 3px 10px 31px 10px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 10px 31px 10px rgba(0, 0, 0, 0.6);
+    box-shadow: 3px 10px 31px 10px rgba(0, 0, 0, 0.6);
+}
+
+.icon-dash {
+    color: #eff1f1fd;
+    margin: 19px;
+    font-size: 40px;
+}
+
+.boton-dashboard-close {
+    position: fixed;
+    left: 80%;
+    top: 3%;
+}
+
+.sidenav {
+    top: 9% !important;
+}
+
+.tamaño {
+    position: relative;
+    display: block;
+    z-index: 1000;
+}
+
+.boton-dash-close {
+    width: 30px;
+    height: 30px;
+    background-color: #d50000;
+    border-radius: 50%;
+    align-items: center;
+    -webkit-box-shadow: 0px 2px 23px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 2px 23px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 2px 23px -1px rgba(0, 0, 0, 0.75);
+}
+
+.icon-dash-close {
+    color: #eff1f1fd;
+    margin: -0.38px;
+    font-size: 30px;
+}
+
+.text-dash {
+    font-weight: bold;
+    color: #262727fd;
+    margin: 5px 19px !important;
+}
+
+.text-dash:before {
+    content: "";
+    width: 8px;
+    height: 30px;
+    margin-left: -15px;
+    background-color: #1565c0;
+    position: absolute;
+}
+
+.imgUser {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.itemUser {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.itemSubMenu {
+    margin-left: 20px;
+}
+
+nav {
+    float: left;
+    /* Desplazamos el nav hacia la izquierda */
+}
+
+.btnManu {
+    margin: 10px;
+}
+
+.subMenu {
+    margin: 10px;
+}
+
+.imgcircleIMG {
+    align-items: center;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
